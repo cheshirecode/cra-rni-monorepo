@@ -1,4 +1,3 @@
-//https://medium.com/viewstools/how-to-use-yarn-workspaces-with-create-react-app-and-create-react-native-app-expo-to-share-common-ea27bc4bad62
 const findRoot = require("find-root");
 const fs = require("fs-extra");
 const path = require("path");
@@ -20,6 +19,5 @@ module.exports = function makeSymlinks(from) {
     return fs.existsSync(pkg) && "workspaces" in require(pkg);
   });
 
-  //   link('expo', root, from);
   link("react-native", root, from);
 };
