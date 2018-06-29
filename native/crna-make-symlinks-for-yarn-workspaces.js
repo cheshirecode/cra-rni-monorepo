@@ -20,4 +20,5 @@ module.exports = function makeSymlinks(from) {
   });
 
   link("react-native", root, from);
+  link("jest", root, from);
 };

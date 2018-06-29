@@ -6,7 +6,7 @@
 
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
-import test from "core/test";
+import commonValue from "core/commonValue";
 import C from "core/component";
 
 const instructions = Platform.select({
@@ -24,7 +24,9 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Text style={styles.instructions}>core/test value - {test}</Text>
+        <Text style={styles.instructions}>
+          core/commonValue value - {commonValue}
+        </Text>
         <C>
           {({ value, c }) => (
             <Text style={styles.instructions}>

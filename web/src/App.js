@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import test from "core/test";
+import commonValue from "core/commonValue";
 import C from "core/component";
 class App extends Component {
   render() {
@@ -13,12 +13,12 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-          <p>core/test value - {test}</p>
+          <span>core/test value - {commonValue}</span>
         </p>
         <C>
           {({ value, c }) => (
             <pre>
-              shared core/component common props <b>{value}</b> passed-in{" "}
+              shared core/component common props <b>{commonValue}</b> passed-in{" "}
               <b>{c}</b>
             </pre>
           )}
