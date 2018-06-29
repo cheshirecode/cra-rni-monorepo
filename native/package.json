@@ -7,7 +7,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "jest",
-    "prestart": "node link-workspaces.js"
+    "prestart": "node link-workspaces.js",
+    "rename": "react-native-rename "
   },
   "dependencies": {
     "react": "16.3.1",
