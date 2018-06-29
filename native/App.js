@@ -7,6 +7,7 @@
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
 import test from "core/test";
+import C from "core/component";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -24,6 +25,13 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <Text style={styles.instructions}>core/test value - {test}</Text>
+        <C>
+          {({ value }) => (
+            <Text style={styles.instructions}>
+              shared core/component with {value}
+            </Text>
+          )}
+        </C>
       </View>
     );
   }

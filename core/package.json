@@ -1,4 +1,8 @@
 {
   "name": "core",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
 }
