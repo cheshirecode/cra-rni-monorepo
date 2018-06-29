@@ -15,7 +15,14 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
           <p>core/test value - {test}</p>
         </p>
-        <C>{({ value }) => <pre>shared core/component with {value}</pre>}</C>
+        <C>
+          {({ value, c }) => (
+            <pre>
+              shared core/component common props <b>{value}</b> passed-in{" "}
+              <b>{c}</b>
+            </pre>
+          )}
+        </C>
       </div>
     );
   }

@@ -26,9 +26,11 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>{instructions}</Text>
         <Text style={styles.instructions}>core/test value - {test}</Text>
         <C>
-          {({ value }) => (
+          {({ value, c }) => (
             <Text style={styles.instructions}>
-              shared core/component with {value}
+              shared core/component with common props{" "}
+              <Text style={styles.boldText}>{value} </Text> and passed-in{" "}
+              <Text styte={styles.boldText}>{c}</Text>
             </Text>
           )}
         </C>
@@ -53,5 +55,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "#333333",
     marginBottom: 5
-  }
+  },
+  boldText: { fontWeight: "bold" }
 });
