@@ -6,8 +6,9 @@
   "license": "GPL-3.0-only",
   "private": true,
   "workspaces": [
-    "web",
-    "native",
-    "core"
-  ]
+    "*"
+  ],
+  "scripts": {
+    "clean": "npx rimraf node_modules/ **/node_modules"
+  }
 }
