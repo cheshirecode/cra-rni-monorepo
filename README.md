@@ -1,4 +1,4 @@
-# cra-rni-monorepo
+# cra-rni-monorepo [![Build Status](https://travis-ci.org/cheshirecode/cra-rni-monorepo.svg?branch=master)](https://travis-ci.org/cheshirecode/cra-rni-monorepo)
 
 Set up CRA and barebone RN in the same monorepo as a code-sharing experiment for future boilerplates. Followed the great guide at
 https://medium.com/viewstools/how-to-use-yarn-workspaces-with-create-react-app-and-create-react-native-app-expo-to-share-common-ea27bc4bad62
