@@ -1,0 +1,26 @@
+{
+  "name": "native",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ../node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "prestart": "node link-workspaces.js"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "metro-bundler-config-yarn-workspaces": "^1.0.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

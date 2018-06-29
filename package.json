@@ -1,0 +1,13 @@
+{
+  "name": "cra-rni-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cheshireCode",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "workspaces": [
+    "web",
+    "native",
+    "core"
+  ]
+}
