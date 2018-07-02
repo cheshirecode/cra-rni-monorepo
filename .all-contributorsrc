@@ -1,0 +1,23 @@
+{
+  "projectName": "cra-rni-monorepo",
+  "projectOwner": "cheshirecode",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "cheshirecode",
+      "name": "Tran Dac Anh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1631630?v=4",
+      "profile": "https://github.com/cheshirecode",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    }
+  ]
+}
