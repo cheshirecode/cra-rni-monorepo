@@ -11,6 +11,12 @@
     ]
   },
   "scripts": {
-    "clean": "npx rimraf node_modules/ **/node_modules"
+    "clean": "npx rimraf node_modules/ **/node_modules",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "all-contributors-cli": "^5.2.1"
   }
 }

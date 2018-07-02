@@ -30,7 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/1631630?v=4" width="100px;"/><br /><sub><b>Tran Dac Anh</b></sub>](https://github.com/cheshirecode)<br />[💻](https://github.com/cheshirecode/cra-rni-monorepo/commits?author=cheshirecode "Code") [⚠️](https://github.com/cheshirecode/cra-rni-monorepo/commits?author=cheshirecode "Tests") |
+| [<img src="https://avatars3.githubusercontent.com/u/1631630?v=4" width="100px;"/><br /><sub><b>cheshireCode</b></sub>](https://github.com/cheshirecode)<br />[💻](https://github.com/cheshirecode/cra-rni-monorepo/commits?author=cheshirecode "Code") [⚠️](https://github.com/cheshirecode/cra-rni-monorepo/commits?author=cheshirecode "Tests") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
