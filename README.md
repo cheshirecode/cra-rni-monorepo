@@ -1,5 +1,5 @@
 # cra-rni-monorepo [![Build Status](https://travis-ci.org/cheshirecode/cra-rni-monorepo.svg?branch=master)](https://travis-ci.org/cheshirecode/cra-rni-monorepo)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![Greenkeeper badge](https://badges.greenkeeper.io/cheshirecode/cra-rni-monorepo.svg)](https://greenkeeper.io/)
 
 Set up CRA and barebone RN in the same monorepo as a code-sharing experiment for future boilerplates. Followed the great guide at
 https://medium.com/viewstools/how-to-use-yarn-workspaces-with-create-react-app-and-create-react-native-app-expo-to-share-common-ea27bc4bad62
