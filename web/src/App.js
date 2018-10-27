@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import commonValue from "core/commonValue";
-import C from "core/component";
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import commonValue from 'core/commonValue';
+import C from 'core/component';
 class App extends Component {
   render() {
     return (
@@ -20,7 +20,7 @@ class App extends Component {
         <C>
           {({ value, c }) => (
             <pre>
-              shared core/component common props <b>{commonValue}</b> passed-in{" "}
+              shared core/component common props <b>{commonValue}</b> passed-in{' '}
               <b>{c}</b>
             </pre>
           )}

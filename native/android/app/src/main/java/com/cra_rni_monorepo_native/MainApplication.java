@@ -1,4 +1,4 @@
-package com.native;
+package com.cra_rni_monorepo_native;
 
 import android.app.Application;
 

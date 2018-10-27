@@ -19,9 +19,9 @@ cd cra-rni-monorepo
 ```
 
 - Run `yarn` once to grab all dependencies.
-- Start web development build `cd web; yarn start`.
-- Run the RN bundler `cd native; yarn start`.
-- Run the RN iOS/Android simulator `cd native; yarn io` or `cd native; yarn android`.
+- Start web development build `yarn start:web`.
+- Run the RN bundler `yarn start:bundler`.
+- Run the RN iOS/Android simulator `yarn start:ios` or `yarn start:android`.
 - Edit some files in `core` folder and see the magic!
 
 ## Contributors

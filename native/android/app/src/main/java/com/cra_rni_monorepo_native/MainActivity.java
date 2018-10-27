@@ -1,4 +1,4 @@
-package com.native;
+package com.cra_rni_monorepo_native;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "native";
+        return "cra_rni_monorepo_native";
     }
 }

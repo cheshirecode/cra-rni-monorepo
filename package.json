@@ -1,7 +1,11 @@
 {
   "name": "cra-rni-monorepo",
   "version": "1.0.0",
-  "main": "index.js",
+  "engines": {
+    "node": ">=8",
+    "yarn": "^1.10.0",
+    "npm": "^6.0.0"
+  },
   "author": "cheshireCode",
   "license": "GPL-3.0-only",
   "private": true,
@@ -11,7 +15,12 @@
     ]
   },
   "scripts": {
-    "clean": "npx rimraf node_modules/ **/node_modules",
+    "nuke": "yarn clean:artifacts && yarn clean:cache",
+    "clean:artifacts": "rm -rf node_modules/ **/node_modules ios/build",
+    "clean:cache": "./clearCache.sh",
+    "start:bundler": "cd native; yarn start --reset-cache",
+    "start:ios": "cd native; yarn ios",
+    "start:android": "cd native; yarn android",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
