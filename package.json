@@ -21,11 +21,16 @@
     "start:bundler": "cd native; yarn start --reset-cache",
     "start:ios": "cd native; yarn ios",
     "start:android": "cd native; yarn android",
+    "start:web": "cd web; yarn start",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
   "dependencies": {},
   "devDependencies": {
     "all-contributors-cli": "^5.2.1"
+  },
+  "resolution": {
+    "jest": "^23.6.0",
+    "babel-core": "^7.0.0-bridge.0"
   }
 }
