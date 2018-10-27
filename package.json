@@ -2,7 +2,7 @@
   "name": "cra-rni-monorepo",
   "version": "1.0.0",
   "engines": {
-    "node": ">=8",
+    "node": ">=6",
     "yarn": "^1.10.0",
     "npm": "^6.0.0"
   },
