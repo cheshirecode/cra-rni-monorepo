@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "react-app-rewire-yarn-workspaces": "^1.0.3",
-    "react-app-rewired": "^1.6.2"
+    "react-app-rewired": "^2.0.2"
   },
   "jest": {
     "collectCoverageFrom": [
