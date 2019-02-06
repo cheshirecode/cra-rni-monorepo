@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "all-contributors-cli": "^5.2.1"
+    "all-contributors-cli": "^6.0.0"
   },
   "resolution": {
     "jest": "^23.6.0",
