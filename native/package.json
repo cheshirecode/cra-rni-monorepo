@@ -8,11 +8,14 @@
     "ios": "react-native run-ios",
     "rn-upgrade": "react-native upgrade",
     "test": "jest",
-    "prestart": "node link-workspaces.js"
+    "prestart": "node link-workspaces.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "react": "^16.6.0",
-    "react-native": "^0.64.1"
+    "react-native": "^0.64.1",
+    "snyk": "^1.643.0"
   },
   "devDependencies": {
     "babel-jest": "^23.6.0",
@@ -23,5 +26,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
