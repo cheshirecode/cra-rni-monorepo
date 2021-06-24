@@ -5,16 +5,19 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "^4.0.0"
+    "react-scripts": "^3.0.0"   
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "test:ci": "yarn test --coverage --maxWorkers 4",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
+    "snyk": "^1.192.3",
     "react-app-rewire-yarn-workspaces": "^1.0.3",
     "react-app-rewired": "^1.6.2"
   },
@@ -25,5 +28,6 @@
       "!src/index.js",
       "!src/registerServiceWorker.js"
     ]
-  }
+  },
+  "snyk": true
 }
