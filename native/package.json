@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "react": "^16.6.0",
-    "react-native": "^0.64.1"
+    "react-native": "^0.64.2"
   },
   "devDependencies": {
     "babel-jest": "^23.6.0",
